@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Col-Row Span</title>
+</head>
+
+<body>
+  <h1 align="center">Colspan</h1>
+  <!-- Col span --- merge to cells of different columns-->
+  <table align="center" border="1px" width="50%" cellpadding="10px" cellspacing="20px">
+    <tr align="right">
+      <td height="100px" colspan="2">A</td>
+      <td>B</td>
+
+    </tr>
+    <tr>
+      <td valign="top" align="center" height="55px">D</td>
+      <td align="Right" height="100px">E</td>
+      <td>F</td>
+    </tr>
+    <td height="100px">G</td>
+    <td>H</td>
+    <td>I</td>
+    </tr>
+    <caption>
+      Col span Table structure
+    </caption>
+  </table>
+
+  <h1 align="center">Rowspan</h1>
+
+  <!-- row span -- merge to cells of different row -->
+
+  <table align="center" border="1px" width="50%" cellpadding="10px" cellspacing="20px">
+    <tr align="right">
+      <td height="100px" rowspan="2">A1</td>
+      <td>B1</td>
+      <td>C1</td>
+
+    </tr>
+    <tr>
+      <td valign="top" align="center" height="55px">D1</td>
+      <td align="Right" height="100px">E1</td>
+
+    </tr>
+    <td height="100px">G1</td>
+    <td>H1</td>
+    <td>I1</td>
+    </tr>
+
+    <!--
+      caption -- heading of the table
+    -->
+
+    <caption>
+      Row span Table structure
+    </caption>
+  </table>
+</body>
+
+</html>
