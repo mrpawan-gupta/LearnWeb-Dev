@@ -1,0 +1,27 @@
+/*
+    ways of Implementing Css
+    1. Inline ---> 
+        <h1 style = "color:green;font-size:15px;">
+            hello world!!
+        <h1>
+
+    2. Inpage stylr tag --->
+
+        <Head>
+            <style>
+            h1{
+                color:green;
+            }
+            </style>
+        <head>
+        <body>
+        </body>
+
+    3. External style sheet -->
+
+        <head>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </hed>
+
+        
+*/
