@@ -6,26 +6,32 @@
     // addition ;
     $a += $b;
     echo $a;
+    echo "<br>";
 
     //subtraction
-    $a -= $b;
+    $b -= $a;
     echo $b;
+    echo "<br>";
 
     // multiplication
     $a *= $b;
     echo $a;
+    echo "<br>";
 
     //division
     $a /= $b;
     echo $a;
+    echo "<br>";
 
     // mod 
     $a %= $b;
     echo $a;
+    echo "<br>";
 
     //exponentationn
     $a **= $b;
     echo $a;
+    echo "<br>";
 
 
 ?>
